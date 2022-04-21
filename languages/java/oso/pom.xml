@@ -12,7 +12,7 @@
 
   <groupId>com.osohq</groupId>
   <artifactId>oso</artifactId>
-  <!-- oso_version --><version>0.26.1</version>
+  <!-- oso_version --><version>0.26.1-PKB</version>
 
   <distributionManagement>
     <snapshotRepository>
@@ -192,17 +192,6 @@
             </goals>
           </execution>
         </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>nexus-staging-maven-plugin</artifactId>
-        <version>1.6.7</version>
-        <extensions>true</extensions>
-        <configuration>
-          <serverId>ossrh</serverId>
-          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-          <autoReleaseAfterClose>true</autoReleaseAfterClose>
-        </configuration>
       </plugin>
     </plugins>
 
